@@ -11,7 +11,7 @@ The primary objective is to evaluate whether stationary assumptions in tradition
 - **Data Pipeline:** 44-year daily precipitation series extracted via NASA POWER API (1982–2026).
 - **Extreme Value Modeling:** Block Maxima approach fitting a Generalized Extreme Value (GEV) distribution via Maximum Likelihood Estimation (MLE):
   
-  $$G(z) = \exp\left\{ -\left[1 + \xi \left(\frac{z - \mu}{\sigma}\right)\right]^{-1/\xi}\right\}$$
+$$G(z) = \exp\left\{ -\left[1 + \xi \left(\frac{z - \mu}{\sigma}\right)\right]^{-1/\xi}\right\}$$
 
 - **Diagnostic Suite:**
   1. **Stationary GEV Return Levels:** Estimating empirical vs. theoretical return periods up to 100 years.
